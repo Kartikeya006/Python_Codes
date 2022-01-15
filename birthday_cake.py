@@ -1,0 +1,7 @@
+a = input()
+a = int(a)
+b = input()
+b = list(map(int, b.split()))
+c = max(b)
+h = b.count(c)
+print(h)
